@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Normalize  -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Custom StyleSheet  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Tajawal:wght@800&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Start Header  -->
+    <header>
+        <div class="container">
+            <a class="logo" href="#"><img src="images/logo.png" alt="logo"></a>
+            <nav>
+                <i class="fas fa-bars toggle-bar"></i>
+                <ul>
+                    <li>
+                        <a href="#home" class="active">Home</a>
+                        <i class="fas fa-times"></i>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#pricing">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#contact-us">Contact</a>
+                    </li>
+                </ul>
+                <div class="form">
+                    <i class="fas fa-search"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header  -->
+    <!-- Start Landing  -->
+    <div class="landing fade" id="home">
+        <div class="overlay"></div>
+        <div class="text">
+            <div class="content">
+                <h2>Hello World ! <br>WE ARE KASPER,WE MAKE ART.</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+            </div>
+        </div>
+        <i class="fas fa-angle-left change-bg left" onclick="changeBg(-1)"></i>
+        <i class="fas fa-angle-right change-bg right" onclick="changeBg(1)"></i>
+
+        <ul class="bullets">
+            <li onclick="showBg(0)" class="active"></li>
+            <li onclick="showBg(1)"></li>
+            <li onclick="showBg(2)"></li>
+        </ul>
+    </div>
+    <!-- End Landing  -->
+    <!-- Start Services  -->
+    <div class="services " id="services">
+        <div class="container">
+            <div class="main-header">
+                <h2>Services</h2>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+                </p>
+            </div>
+
+            <div class="services-container">
+                <div class="service-box">
+                    <i class="fas fa-desktop fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>
+                            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+                        </p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-gear fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>
+                            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+                        </p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-pencil-ruler fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>
+                            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+                        </p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-camera fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>
+                            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End Services  -->
+
+    <!-- Start Design  -->
+    <div class="design">
+        <div class="images">
+            <img src="images/iphone-black.png" alt="iphone-black" class="img-1">
+            <img src="images/iphone-white.png" alt="iphone-white" class="img-2">
+        </div>
+        <div class="text">
+            <h3>OUR DESIGNS COMES WITH...</h3>
+            <ul class="">
+                <li>
+                    <p>Responsive Design</p>
+                </li>
+                <li>
+                    <p>Modern And Clean Design</p>
+                </li>
+                <li>
+                    <p>Clean Code</p>
+                </li>
+                <li>
+                    <p>Browser Friendly</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Design  -->
+    <!-- Start Portfolio  -->
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="main-header">
+                <h2>Portfolio</h2>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+                </p>
+            </div>
+            <ul class="shuffle">
+                <li><button class="btn active" onclick="showImages('all')">All</button></li>
+                <li><button class="btn" onclick="showImages('app')">App</button></li>
+                <li><button class="btn" onclick="showImages('photography')">Photography</button></li>
+                <li><button class="btn" onclick="showImages('web')">Web</button></li>
+                <li><button class="btn" onclick="showImages('print')">Print</button></li>
+            </ul>
+        </div>
+        <div class="gallery">
+            <div class="box app fade">
+                <img src="images/portfolio-1.jpg" alt="">
+                <i class="fas fa-plus-circle slide-top-down"></i>
+                <div class="caption  slide-in">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box photography fade">
+                <img src="images/portfolio-2.jpg" alt="">
+                <i class="fas fa-plus-circle slide-top-down"></i>
+                <div class="caption  slide-in">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box web fade">
+                <img src="images/portfolio-3.jpg" alt="">
+                <i class="fas fa-plus-circle slide-top-down"></i>
+                <div class="caption  slide-in">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box print fade">
+                <img src="images/portfolio-4.jpg" alt="">
+                <i class="fas fa-plus-circle slide-top-down"></i>
+                <div class="caption  slide-in">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box app fade">
+                <img src="images/portfolio-4.jpg" alt="">
+                <i class="fas fa-plus-circle slide-top-down"></i>
+                <div class="caption  slide-in">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box photography fade">
+                <img src="images/portfolio-1.jpg" alt="">
+                <i class="fas fa-plus-circle slide-top-down"></i>
+                <div class="caption  slide-in">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box app web fade">
+                <img src="images/portfolio-2.jpg" alt="">
+                <i class="fas fa-plus-circle slide-top-down"></i>
+                <div class="caption  slide-in">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box web print fade">
+                <img src="images/portfolio-3.jpg" alt="">
+                <i class="fas fa-plus-circle slide-top-down"></i>
+                <div class="caption  slide-in">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Portfolio  -->
+    <!-- Start About Us  -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="main-header">
+                <h2>About Us</h2>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+                </p>
+            </div>
+            <div class="image"><img src="images/about.png" alt=""></div>
+        </div>
+        <div class="count">
+            <div class="container">
+                <div class="count-box">
+                    <div class="icon">
+                        <i class="fas fa-check-square"></i>
+                    </div>
+                    <div class="text">
+                        <span>120</span>
+                        <p>Completed Projects</p>
+                    </div>
+                </div>
+                <div class="count-box">
+                    <div class="icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="text">
+                        <span>152</span>
+                        <p>Satisfied Clients</p>
+                    </div>
+                </div>
+                <div class="count-box">
+                    <div class="icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="text">
+                        <span>2500</span>
+                        <p>Working Hours</p>
+
+                    </div>
+                </div>
+                <div class="count-box">
+                    <div class="icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="text">
+                        <span>150</span>
+                        <p>Award Won</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About Us  -->
+    <!-- Start our Skills || Testimonials  -->
+    <div class="our-skills">
+        <div class="container">
+            <div class="testimonials">
+                <div class="header">
+                    <h3>Testimonials</h3>
+                    <p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+                    </p>
+                </div>
+                <div class="testim-container">
+                    <div class="fade">
+                        <div class="box">
+                            <div class="image"><img src="images/1.jpg" alt="testimonial1"></div>
+                            <div class="text">
+                                <span>
+                                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit
+                                    aliquet
+                                    elit, eget tincidunt.
+                                </span>
+                                <p>John Doe, CEO</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="image"><img src="images/2.jpg" alt="testimonial2"></div>
+                            <div class="text">
+                                <span>
+                                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit
+                                    aliquet
+                                    elit, eget tincidunt.
+                                </span>
+                                <p>John Doe, CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fade">
+                        <div class="box">
+                            <div class="image"><img src="images/3.jpg" alt="testimonial3"></div>
+                            <div class="text">
+                                <span>
+                                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit
+                                    aliquet
+                                    elit, eget tincidunt.
+                                </span>
+                                <p>John Doe, CEO</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="image"><img src="images/1.jpg" alt="testimonial1"></div>
+                            <div class="text">
+                                <span>
+                                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit
+                                    aliquet
+                                    elit, eget tincidunt.
+                                </span>
+                                <p>John Doe, CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fade">
+                        <div class="box">
+                            <div class="image"><img src="images/2.jpg" alt="testimonial2"></div>
+                            <div class="text">
+                                <span>
+                                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit
+                                    aliquet
+                                    elit, eget tincidunt.
+                                </span>
+                                <p>John Doe, CEO</p>
+                            </div>
+                        </div>
+                        <div class="box ">
+                            <div class="image"><img src="images/3.jpg" alt="testimonial3"></div>
+                            <div class="text">
+                                <span>
+                                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit
+                                    aliquet
+                                    elit, eget tincidunt.
+                                </span>
+                                <p>John Doe, CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testim-bullets">
+                    <span onclick="showTestimonials(0)" class="active"></span>
+                    <span onclick="showTestimonials(1)"></span>
+                    <span onclick="showTestimonials(2)"></span>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="header">
+                    <h3>Our Skills</h3>
+                    <p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+                    </p>
+                </div>
+                <ul class="progress-container">
+                    <li>
+                        <h4>HTML 5</h4>
+                        <div class="progress html">
+                            <span data-progress="95%" style="width: 95%;"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>CSS 3</h4>
+                        <div class="progress css">
+                            <span data-progress='93%' style="width: 93%;"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>PHP</h4>
+                        <div class="progress php">
+                            <span data-progress='85%' style="width: 85%;"></span>
+                        </div>
+
+                    </li>
+                    <li>
+                        <h4>MYSQL</h4>
+                        <div class="progress mysql">
+                            <span data-progress="87%" style="width: 87%;"></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End our Skills || Testimonials  -->
+    <!-- Start Quote  -->
+    <div class="quote">
+        <div class="container">
+            <q>ACCUMSAN ID CURABITUR ET PORTITOR MAURIS BLANDIT DOLOR LOREM SOME EST OUR DONEC STIN LORTIOS</q>
+            <p>John Doe</p>
+        </div>
+    </div>
+    <!-- End Quote  -->
+    <!-- Start Pricing  -->
+    <div class="pricing" id="pricing">
+        <div class="container">
+            <div class="main-header">
+                <h2>Pricing</h2>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+                </p>
+            </div>
+            <div class="plans">
+                <div class="plan">
+                    <div class="head">
+                        <h3>Basic</h3>
+                        <span>19</span>
+                    </div>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                        <li>Feature 4</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Premium</h3>
+                        <span>29</span>
+                    </div>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                        <li>Feature 4</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Pro</h3>
+                        <span>39</span>
+                    </div>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                        <li>Feature 4</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Platinum</h3>
+                        <span>49</span>
+                    </div>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                        <li>Feature 4</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact">
+                <p>Contact us if you have special request</p>
+                <a href="#contact-us">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <!-- End Pricing  -->
+    <!-- Start Subscribe  -->
+    <div class="subscribe">
+        <div class="container">
+            <div class="">
+                <input type="email" name="" id="" placeholder="YOUR MAIL">
+                <input type="button" value="SUBSCRIBE">
+            </div>
+            <span>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                tincidunt.
+            </span>
+        </div>
+    </div>
+    <!-- End Subscribe  -->
+    <!-- Start Contact Us  -->
+    <div class="contact-us" id="contact-us">
+        <div class="container">
+            <div class="main-header">
+                <h2>Contact Us</h2>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+                </p>
+            </div>
+            <div class="get-in-touch">
+                <form action="">
+                    <input type="text" name="" id="" placeholder="YOUR NAME">
+                    <input type="email" name="" id="" placeholder="YOUR MAIL">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="YOUR MESSAGE"></textarea>
+                    <input type="submit" value="SEND MESSAGE">
+                </form>
+                <div class="contact">
+                    <div class="">
+                        <p>GET IN TOUCH</p>
+                        <div class="tele">
+                            <span>+00 123.456.789</span>
+                            <span>+00 123.456.789</span>
+
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <p>GET IN TOUCH</p>
+                        <div class="tele">
+                            <span>+00 123.456.789</span>
+                            <span>+00 123.456.789</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Us  -->
+
+    <!-- Start Footer  -->
+    <div class="footer">
+        <div class="container">
+            <div class="logo"><img src="images/logo.png" alt=""></div>
+            <p>WE ARE SOCIAL</p>
+            <ul class="social">
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab  fa-twitter"></i></li>
+                <li><i class="fab  fa-google-plus-g"></i></li>
+                <li><i class="fab  fa-dribbble"></i></li>
+            </ul>
+            <div class="theme">
+                <p>Theme by <span>GraphBerry.com</span> Developed by <span>Themefisher</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer  -->
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
